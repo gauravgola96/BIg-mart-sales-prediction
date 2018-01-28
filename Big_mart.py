@@ -21,7 +21,7 @@ data = pd.concat([train,test],ignore_index=True)
 data.Item_Identifier.value_counts() #1559 items 
 
 train.isnull().sum()
-#https://www.analyticsvidhya.com/blog/2016/02/bigmart-sales-solution-top-20/
+
 
 data.isnull().sum() #null in test is 5681
 
