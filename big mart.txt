@@ -1,0 +1,34 @@
+variables - 12
+item identifier 
+item fat content
+item MRP 
+year of establishment of outlet
+outlet size
+outlet type
+
+missing value 
+-- Item weight 
+with the mean of each item identifier
+
+-- outlet size - small ,medium , large 
+mode value of outlet type (supermarket , grocery store)
+
+created dummy variables for all the categorical 
+outlet type,
+outlet size,
+outlet location 
+
+--- scikit learn preprocessing import lable encoder
+-- to covert all the categ to numerical
+pd.getdummies
+
+
+linear regression - big coefficient are found -- 
+
+ridge regression - small and stable coefficient 
+RMSE - 1200
+
+
+
+
+
